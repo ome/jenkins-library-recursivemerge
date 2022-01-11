@@ -6,7 +6,7 @@ def call(Map pipelineParams) {
 
     def fork = pipelineParams.fork ?: "ome"
     def repo = pipelineParams.repo ?: "unknown"
-    def url = pipelineParams.url ?: "git://github.com/${fork}/${repo}"
+    def url = pipelineParams.url ?: "https://github.com/${fork}/${repo}"
     def branch = pipelineParams.branch ?: "master"
 
     checkout poll: false,
