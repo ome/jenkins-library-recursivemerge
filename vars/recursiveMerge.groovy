@@ -78,10 +78,10 @@ def call(Map pipelineParams) {
     pushd build
     curl -sfL ${buildInfraUrl} | tar -zxf -
     popd
-    python3 -m venv build/venv
+    python3.11 -m venv build/venv
     . build/venv/bin/activate
-    python3 -m pip install -U pip
-    python3 -m pip install ${sccPackage}
+    python3.11 -m pip install -U pip
+    python3.11 -m pip install ${sccPackage}
     """
 
     sh """
