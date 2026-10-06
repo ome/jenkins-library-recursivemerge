@@ -1,7 +1,7 @@
 
 # Jenkins Library Recursive Merge
 
-Outline of the stack involving `jenkins-library-recursivemerge`:
+Outline of the stack involving `jenkins-library-recursivemerge` (shown on the `idr.openmicroscopy.org` example):
 
 ```
 
