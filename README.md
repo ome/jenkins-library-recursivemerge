@@ -39,8 +39,8 @@ Relevent links:
 In short:
 
  - Jenkins runs the pipeline.
- - jenkins-library-recursivemerge provides recursiveCheckout() and recursiveMerge() and orchestrates the process.
- - build-infra contains the underlying recursive-merge machinery.
+ - `jenkins-library-recursivemerge` provides `recursiveCheckout()` and `recursiveMerge()` and orchestrates the process.
+ - `build-infra` contains the underlying `recursive-merge` machinery.
  - SCC is what actually understands the repository/PR configuration and performs the merges.
 
 See https://github.com/ome/devspace/pull/237 for example usage.
